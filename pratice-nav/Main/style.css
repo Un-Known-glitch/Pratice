@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Info-Nav */
+.info-nav{
+    list-style: none;
+    gap: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 255);
+}
+.info-text{
+    color: black;
+    text-decoration: none;
+
+}
+/* Info-Nav */
+
+/* container */
+.container{
+    margin-top: 12px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+margin-right:20px;
+}
+a{
+    font-weight: bold;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.list-button{
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    
+}
+.admission-button{
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: rgb(0, 102, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 14px;
+}
